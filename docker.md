@@ -1,17 +1,17 @@
-# Download image
+## Download image
 docker pull ubuntu
 
-# Start Container 
+## Start Container 
 docker run ubuntu
 
-# Start Container with terminal
+## Start Container with terminal
 docker run -it ubuntu
 
-# Copy to container
+## Copy to container
 docker cp foo.txt container_id:/foo.txt
 
-# Copy from container
+## Copy from container
 docker cp container_id:/foo.txt foo.txt
 
-# List containers
+## List containers
 docker container ls
