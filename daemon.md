@@ -20,4 +20,4 @@ systemctl disable conversion_rates_fetcher_daemon
 systemctl edit conversion_rates_fetcher_daemon --full
 
 ## Logs (default)
-tail /var/log/syslog
+/var/log/journal conversion_rates_fetcher_daemon.service.log
